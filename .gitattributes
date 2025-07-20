@@ -1,0 +1,14 @@
+
+# Auto normalize text files
+* text=auto
+
+# Force Unix-style endings (LF) for all text files
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+
+# Binary files - don't modify line endings
+*.png binary
+*.jpg binary
+*.zip binary
+*.exe binary
